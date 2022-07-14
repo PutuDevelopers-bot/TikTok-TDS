@@ -42,5 +42,5 @@ jobs:
         git config user.email "88973775+PutuDevelopers-bot@users.noreply.github.com"
         git add -A
         timestamp=$(date '+%F %H:%M:%S %Z')
-        git commit -m "Update Data ${timestamp}" || exit 0
+        git commit -m "Tiktok-TDS: Update Tiktok Trending Data ${timestamp}" || exit 0
         git push
